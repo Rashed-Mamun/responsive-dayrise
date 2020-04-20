@@ -1,0 +1,1979 @@
+
+/*global CSS*/
+@import url('https://fonts.googleapis.com/css?family=Cambo|Open+Sans:400,600,700&display=swap');
+
+
+*{
+  margin:0;
+  padding:  0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    
+
+    
+
+}
+
+h1 {
+  font-family: 'Cambo', serif;
+  font-size: 45px;
+}
+
+h2 {
+
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Cambo', serif;
+  font-size: 32px;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+}
+
+h5 {
+
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+  padding: 2% 10%;
+}
+
+.cta-btn {
+
+  border: 1px solid #fff;
+  padding: 7px 45px;
+  border-radius: 0;
+  background: #fff;
+  margin: 40px 0;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition-duration: .3s;
+}
+
+
+
+.cta-btn:hover {
+
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.heading span {
+  font-family: 'Cambo', serif;
+  font-size: 45px;
+
+}
+
+.heading span::after {
+  content: "";
+  width: 10%;
+  height: 1px;
+  display: inline-block;
+  background: #15141a;
+  margin: 12px 10px;
+}
+
+.heading span::before {
+  content: "";
+  width: 10%;
+  height: 1px;
+  display: inline-block;
+  background: #15141a;
+  margin: 12px 10px;
+}
+
+.heading h1{
+  
+  display: inline;
+  color: #fbae47;
+}
+
+
+
+
+/*Main CSS*/
+
+header {
+
+  
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+
+.header_position {
+  position: relative;
+}
+.logo {
+  
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.search_addToCart {
+    position: absolute;
+    max-width: 100px;
+    right: 10%;
+    top: 7%;
+    transform: translate(-50%,-50%);
+}
+
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    position: relative;
+    width: 50px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f87775', endColorstr='#b05e70',GradientType=0 ); /* IE6-9 */
+}
+
+.searchbar:hover{
+  width: 300px;
+  transition: width 0.4s linear;
+  border: 1px solid #15141a;
+}
+
+.search_input{
+    color: #15141a;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:#f8f8f800;
+    line-height: 40px;
+    
+    position: absolute;
+    height: 60%;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 20px;
+    width: 100%;
+    caret-color:#15141a;
+    transition: width 0.4s linear;
+    }
+    
+::placeholder{
+  color: #15141a;
+}
+
+.searchbar:hover > .search_icon{
+    
+    color: #15141a;
+    text-decoration: none;
+}
+
+.search_icon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:#15141a;
+    text-decoration:none;
+    font-size: 18px;
+    position: relative;
+    z-index: 9;
+}
+
+.addToCard{
+    position: fixed;
+    right: -58%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.addToCard i {
+    color: #15141a;
+    
+}
+.navbar-toggler {
+
+    border: 1px solid #212121;
+    position: absolute;
+    color: black;
+    left: 3.5%;
+    top: 0;
+    transform: translate(4%, 38%);
+    padding: 0px 2px;
+
+}
+
+
+.navbar-toggler-line {
+    width: 19px;
+    display: block;
+    height: 2px;
+    background: #0f0e0e;
+    margin: 5px;
+}
+
+.navbar-nav .nav-item {
+  
+  padding: 10px;
+}
+
+header .navbar .nav-item .nav-link {
+    color: #524949c4;
+    font-size: 18px;
+    padding: 0;
+    
+}
+
+
+header .navbar .nav-item .nav-link:hover {
+
+    color: #010101b8 !important;
+    
+
+}
+
+
+
+header .navbar .nav-item.active .nav-link {
+  color: #212529;
+
+}
+
+
+
+.hero-area {
+
+}
+
+
+.hero-area .hero-area-content {
+
+  padding: 10% 0 10% 6.5%;
+}
+.hero-area .hero-area-content h1{
+
+  font-size: 45px;
+  font-weight: 600;
+  padding: 10% 0;
+}
+
+.hero-area .hero-area-content ul{
+
+}
+
+.hero-area .hero-area-content ul li{
+
+  margin: 15px 0;
+  display: flex;
+}
+
+.hero-area .hero-area-content ul li h6{
+
+  padding-left: 15px;
+  margin-top: 5px;
+  color: #fff;
+}
+
+
+
+.hero-area .hero-area-content ul li i{
+
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 1.6;
+}
+.hero-area .hero-area-content a {
+
+}
+
+.hero-area .hero-img{
+
+  text-align: center;
+  display: inline-block;
+  padding-top: 15%;
+}
+
+.hero-area .hero-img img{
+
+  max-width: 420px;
+}
+
+
+
+/*About Section CSS*/
+
+.about-section {
+
+  text-align: center;
+  padding: 5% 0 1%;
+}
+
+.about-section .heading {
+  
+}
+
+.about-section .heading h3 {
+  
+  margin: 0;
+}
+
+.about-section .heading h1{
+  color: #fbae47;
+  display: inline-block;
+}
+
+
+.about-section .heading_box{
+  
+  padding: 25px 70px;
+}
+
+.about-section .heading_box .box{
+  
+  max-width: 100%;
+  min-height: 330px;
+  padding: 5%;
+  box-shadow: 0 6px 24px -4px #817f7f69;
+  margin: 20px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.about-section .heading_box .box img{
+  
+  max-width: 75px;
+}
+
+.about-section .heading_box .box h4{
+  
+  font-size: 23px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.about-section .heading_box .box p{
+  
+  font-size: 14px;
+  padding: 0 10px;
+  margin: 0;
+}
+
+
+
+/*Formula Section CSS*/
+
+.formula-section {
+  text-align: center;
+  background-image: url(../images/formula_bg.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 164px;
+}
+
+
+.formula-section .heading {
+  
+  padding-bottom: 30px;
+}
+
+.formula-section .heading h3 {
+  
+  margin: 0;
+  color: #15141a;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.formula-section .heading h1{
+  color: #15141a;
+}
+
+.formula-section .heading h6{
+  color: #15141a;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.formula-section .formula-img{
+  
+  max-width: 625px;
+  margin: auto;
+}
+
+
+
+/*Promise Section CSS*/
+
+.promise-section {
+
+  text-align: center;
+  background-image: url(../images/line_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.promise-section .promise-content {
+  
+  padding: 10%;
+}
+.promise-section .promise-content h6 {
+  
+}
+.promise-section .promise-content h3 {
+  
+}
+.promise-section .promise-content p {
+  
+}
+.promise-section .promise-content .learn_more {
+  
+  margin: 0;
+  background: #f9a547;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px 30px;
+  transition-duration: .3s;
+}
+
+.promise-section .promise-content .learn_more:hover {
+  
+  
+  border: 1px solid #f9a547;
+  background: transparent;
+  color: #f9a547;
+
+}
+.promise-section .promise-content .learn_more i {
+  
+  padding: 5px;
+}
+
+
+
+ /*Testimonial Section CSS*/
+
+
+ .testimonial-section {
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d9c1bd+26,f2ba81+100 */
+background: rgb(217,193,189); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(217,193,189,1) 26%, rgba(242,186,129,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(217,193,189,1) 26%,rgba(242,186,129,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(217,193,189,1) 26%,rgba(242,186,129,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9c1bd', endColorstr='#f2ba81',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  padding: 50px 0;
+
+ }
+
+ .testimonial-section .testimonial-heading {
+
+  text-align: center;
+  
+ }
+.testimonial-section .testimonial-heading h3 {
+  
+  color: #fff;
+ }
+.testimonial-section .testimonial-heading h5 {
+  
+  color: #fff;
+ }
+.testimonial-section .testimonial-heading h6 {
+  
+  color: #fff;
+  padding-bottom: 40px;
+  font-size: 15px;
+  
+ }
+
+.testimonial-section .row {
+
+  padding: 0 8%;
+ }
+.testimonial-section .row .t_box_center {
+
+  justify-content: center;
+  display: flex;
+ }
+.testimonial-section .t-box {
+
+  position: relative;
+ }
+
+.testimonial-section .t-box img {
+
+ }
+
+.testimonial-section .t-box h5{
+
+  color: #fff;
+  margin: 20px 0;
+ }
+
+.testimonial-section .t-box .t-position .icon-position {
+
+  position: absolute;
+  top: 0;
+  right: 0;
+ }
+
+.testimonial-section .t-box .t-position .icon-position li {
+
+  margin-top: 15%;
+ }
+
+ .testimonial-section .t-box .t-position .icon-position li a{
+
+  color: #fff;
+  padding: 10px;
+  transition: .3s;
+ }
+
+  .testimonial-section .t-box .t-position .icon-position .heart:hover{
+
+  color: red;
+  
+ }
+
+ .testimonial-section .t-box .t-position .icon-position .watch:hover{
+
+  color: #f9a547;
+  
+ }
+
+ .testimonial-section .t-box .t-position .icon-position .download:hover{
+
+  color: #0cfa0c;
+  
+ }
+
+.testimonial-section .t-box .t-position .icon-position li a i{
+
+  background: #1818189e;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 1.6;
+  border-radius: 5px;
+ }
+
+.testimonial-section .t-box .t-position .content-position{
+
+  position: absolute;
+  left: 25%;
+  bottom: 15%;
+  max-width: 200px;
+  color: #fff;
+  background: #1818189e;
+  transform: translateX(-15%);
+  font-size: 13px;
+ }
+
+
+
+
+    /* Question Section CSS*/
+
+
+.question-section {
+
+  padding: 5% 0;
+}
+
+.question-section .heading {
+  
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.question-section .heading h3 {
+  
+}
+
+.question-section .heading h1 {
+  
+}
+
+.question-section .row {
+
+  padding: 0 8%;
+}
+
+.question-section .form-section{
+
+}
+
+.question-section .form-section h5{
+
+}
+
+form {
+
+}
+form .form-group {
+    width: 360px;
+}
+
+form .form-row {
+
+  margin-left: 0;
+}
+
+.form-control {
+
+    background-color: #e5e5e5 !important;
+    border: none;
+   
+}
+
+.form-group label {
+  
+  font-size: 15px;
+}
+
+
+.form-control::placeholder {
+
+    
+    font-size: 12px;
+}
+
+.form-group .send-btn {
+  
+  margin: 0;
+  background: #fbae47;
+  color: #fff;
+  transition-duration: .3s;
+}
+
+.form-group .send-btn:hover {
+  
+  color: #fbae47;
+  background: transparent;
+  border: 1px solid #fbae47;
+}
+
+.answer-section {
+
+  background: #e5e5e5;
+  padding-bottom: 5%;
+  margin: 3% 0;
+}
+
+.answer-section .card {
+    border: none;
+    background: #e5e5e5;
+    padding: 0 10%;
+}
+.card{
+  
+}
+
+.answer-section .card .h_line{
+  
+  height: 1px;
+  width: 91%;
+  background-color: #999;
+  margin: 0 auto;
+}
+
+
+.card-header .title {
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+}
+.card-header .accicon {
+  float: right;
+  font-size: 17px;  
+  width: 10px;
+  color: #999;
+}
+.card-header {
+    cursor: pointer;
+    border-bottom: none;
+    background: none;
+}
+
+.card-body{
+  background: #e5e5e5;
+  font-size: 12px;
+  margin-right: 0%;
+}
+
+.card-body h6{
+  font-size: 12px;
+  padding-right: 7%;
+  color: #5e5e5e;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+
+
+
+    /*how To Dayrise Section CSS*/
+
+.howToDayrise-section {
+  background-image: url(../images/how_to_dayrise_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.howToDayrise-section .heading {
+ text-align: center;
+ color: #fff;
+ padding: 170px 0 30px;
+}
+  
+
+
+.howToDayrise-section .heading h3{
+  
+}
+
+.howToDayrise-section .heading h5{
+  
+}
+
+.howToDayrise-section .heading h1{
+  color: #fff;
+  font-size: 50px;
+  
+}
+.howToDayrise-section .heading p{
+  color: #fff;
+  max-width: 781px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+
+.howToDayrise-section .heading span::after {
+  content: "";
+  width: 10%;
+  height: 1px;
+  display: inline-block;
+  background: #fff;
+  margin: 28px 10px;
+}
+
+.howToDayrise-section .heading span::before {
+  content: "";
+  width: 10%;
+  height: 1px;
+  display: inline-block;
+  background: #fff;
+  margin: 28px 10px;
+}
+
+.howToDayrise-section .row {
+  padding: 0 8%;
+
+}
+
+.howToDayrise-section .shiping-content {
+
+  padding-left: 8%;
+  padding-top: 20px;
+}
+
+.howToDayrise-section .shiping-content ul {
+
+  padding: 5px 11px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.howToDayrise-section .shiping-content ul li {
+
+}
+
+
+.howToDayrise-section .shiping-content ul li img {
+
+  padding-top: 5px;
+}
+
+
+.howToDayrise-section .shiping-content ul li h5 {
+
+  color: #fff;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.howToDayrise-section .shiping-content ul li p {
+
+  padding: 0 0 0 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.howToDayrise-section .hero-img {
+
+  max-width: 377px;
+  margin: 0 auto;
+}
+
+
+
+    /*footer Section CSS*/
+
+footer {
+
+  background-image: url(../images/footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer .row {
+  
+  padding: 0 8%;
+}
+
+
+footer .newsLetter {
+  
+  padding: 70px 0 60px;
+}
+
+footer .newsLetter h2 {
+  
+  color: #fff;
+}
+
+footer .newsLetter h6 {
+  
+  color: #fff;
+  font-size: 15px;
+}
+
+
+.newsLetter form {
+  
+  display: flex;
+  justify-content: end;
+  margin-top: 7px;
+}
+
+.newsLetter form .form-group {
+    padding-right: 20px;
+}
+
+.newsLetter form .email_send {
+  
+  border-radius: 0;
+  position: relative;
+}
+
+
+.newsLetter i {
+  
+  position: absolute;
+  right:18px;
+  top: 0;
+  transform: translate(-165%,88%);
+}
+
+
+.contact_info {
+
+}
+
+.contact_info img{
+  
+  max-width: 50%;
+}
+
+.contact_info p {
+  
+  padding: 5% 15% 5% 0;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.9;
+}
+
+.contact_info ul {
+  
+}
+.contact_info ul li {
+  
+  padding: 2% 0;
+}
+.contact_info ul li a{
+  
+  font-size: 16px;
+  color: #fff;
+  transition-duration: .3s;
+}
+.contact_info ul li a:hover {
+  
+  color: #403f3fc9;
+  text-decoration: none;
+  border-bottom: 2px solid #403f3fc9;
+}
+
+.contact_info ul li h6 {
+  
+  margin: 0;
+  padding: 1% 0;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contact_info ul li p {
+  
+  margin: 0;
+  padding-top: 0%;
+  font-size: 13px;
+}
+
+.contact_info .social-icon {
+  
+}
+
+.contact_info .social-icon li {
+  
+  width: 40px;
+}
+
+.contact_info .social-icon li a {
+  
+}
+
+
+.contact_info .social-icon li a:hover{
+  
+  text-decoration: none;
+}
+
+.contact_info .social-icon li a:hover i {
+  
+  text-decoration: none;
+}
+
+.lower_part .white_line {
+  
+  width: 100%;
+  height: 1px;
+  background: #f9f6f69e;
+  margin: 20px 50px 20px 13px;
+}
+
+.lower_part .copy_right {
+  
+  margin: 0;
+  padding: 0% 0 8% 0;
+  color: #fff;
+  font-size: 13px;
+}
+
+
+.lower_part ul {
+  
+  justify-content: end;
+  padding-right: 27px;
+}
+
+.lower_part ul li {
+  
+  padding: 0 10px;
+}
+
+.lower_part ul li i{
+  
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+  
+
+.lower_part ul li a:hover i {
+  
+  color: #0b0b0bb0;
+}
+
+
+
+
+
+/*Resposive CSS*/
+
+
+
+@media(max-width:1199px){
+
+.hero-area .hero-area-content h1 {
+    font-size: 35px;
+    padding-bottom: 10%;
+      }
+
+.hero-area .hero-area-content {
+    padding-bottom: 5px;
+}
+.hero-area .hero-img {
+    padding-top: 35px;
+    
+}
+
+.about-section .heading_box .box {
+    
+    min-height: 282px;
+  }
+
+.formula-section .formula-img {
+    max-width: 625px;
+    
+}
+
+.hero-area .hero-img img {
+    max-width: 300px;
+}
+.newsLetter form .form-group {
+    padding-right: 0px;
+}
+.newsLetter i {
+    
+    right: 5px;
+}
+
+
+.howToDayrise-section .row {
+
+    padding: 0 4%;
+
+}
+
+.lower_part .white_line {
+    margin-right: 18px;
+}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+
+header .navbar .nav-item .nav-link {
+    
+    font-size: 16px;
+    
+}
+.searchbar {
+    
+    height: 40px;
+    padding: 8px;
+}
+
+
+.searchbar:hover {
+    width: 200px;
+    
+}
+
+
+.search_icon {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+
+}
+
+::placeholder {
+   font-size: 13px;
+}
+
+
+.addToCard {
+    
+    top: 40%;
+    
+}
+
+.addToCard i {
+    font-size: 15px;
+}
+
+.logo {
+
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-4%);
+    position: relative;
+
+}
+
+.hero-area .hero-area-content h1 {
+    font-size: 24px;
+    padding-bottom: 60px;
+    padding-top: 27px;
+}
+ 
+.hero-area .hero-area-content ul li i {
+
+    
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 1.7;
+  }
+  .hero-area .hero-area-content ul li h6 {
+
+    padding-left: 6px;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .cta-btn {
+    
+    padding: 7px 35px;
+    margin: 30px 0;
+}
+
+.about-section .heading_box {
+    padding: 0px 5px;
+}
+
+.about-section .heading h3 {
+    font-size: 29px;
+}
+.about-section .heading_box .box {
+    
+    min-height: 330px;
+    padding-top: 30px;
+    margin-bottom: 18px;
+}
+.about-section .heading_box .box h4 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.about-section .heading_box .box p {
+    font-size: 14px;
+    padding: 8px;
+}
+
+
+.formula-section {
+    
+    padding: 85px;
+}
+
+.formula-section .heading h3 {
+    
+    font-size: 29px;
+}
+
+.formula-section .heading h6 {
+    
+    font-size: 15px;
+    
+}
+
+.promise-section .promise-content {
+    padding: 5%;
+}
+
+.promise-section .promise-content h3 {
+
+    font-size: 29px;
+
+}
+
+.promise-section .promise-content p {
+
+    font-size: 15px;
+    line-height: 1.7;
+
+}
+
+.promise-section .promise-content .learn_more {
+    
+    padding: 7px 16px;
+   
+}
+.promise-section .promise-content .learn_more i {
+    padding: 2px;
+}
+
+
+.testimonial-section .testimonial-heading h3 {
+    
+    font-size: 29px;
+}
+
+
+.testimonial-section .t-box .t-position .content-position {
+   
+    max-width: 250px;
+    text-align: center;
+}
+
+.testimonial-section .row .t_box_center {
+    margin-bottom: 30px;
+}
+
+.testimonial-section .t-box h5 {
+    
+    text-align: center;
+}
+.question-section .heading h3 {
+    font-size: 29px;
+}
+.heading span::after {
+    content: "";
+    width: 18%;
+    height: 1px;
+    display: inline-block;
+    background: #15141a;
+    margin: 12px 10px;
+}
+
+.heading span::before {
+    content: "";
+    width: 18%;
+    height: 1px;
+    display: inline-block;
+    background: #15141a;
+    margin: 12px 10px;
+}
+
+
+
+form {
+    text-align: initial;
+    padding: 1% 18%;
+}
+
+
+.question-section .form-section {
+
+    text-align: center;
+
+}
+
+form .form-group {
+    width: 375px;
+}
+.form-group .send-btn {
+    
+    margin: 0 34%;
+}
+
+.howToDayrise-section .heading h5 {
+    font-size: 18px;
+}
+
+
+.howToDayrise-section .heading p {
+    max-width: 500px;
+    padding: 0px;
+}
+.howToDayrise-section .shiping-content ul li img {
+ 
+    max-width: 75px;
+}
+
+
+.howToDayrise-section .shiping-content ul li p {
+    
+    margin-right: 25px;
+}
+.howToDayrise-section .shiping-content ul {
+    padding: 30px 35px;
+    box-shadow: 0 0 18px 14px #fdcb8c;
+}
+
+
+.howToDayrise-section .hero-img {
+    max-width: 475px;
+    padding-top: 45px;
+}
+
+footer .newsLetter {
+    
+    text-align: center;
+}
+
+footer .newsLetter h6 {
+    
+    padding-bottom: 5px;
+}
+
+.newsLetter i {
+    
+    right: 104px;
+    top: 6px;
+    
+}
+
+footer .contact_info .row{
+
+ padding: 0;
+}
+.contact_info p {
+    padding: 0;
+    font-size: 10px;
+    
+}
+
+.contact_info ul li p {
+    
+    font-size: 12px;
+}
+.contact_info ul li a {
+    font-size: 15px;
+    
+}
+
+footer .lower_part {
+    padding: 0;
+}
+footer .lower_part .m_card {
+   padding-right: 0;
+}
+
+.lower_part ul li {
+    padding-left: 10px;
+}
+
+.lower_part .white_line {
+    
+    margin-top: 0;
+   
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+.searchbar:hover {
+    width: 190px;
+}
+
+
+.navbar-toggler {
+    
+    left: -0.5%;
+    
+}
+.search_addToCart {
+    
+    right: 0%;
+    top: 5%;
+    transform: translate(-15%,-32%);
+}
+.addToCard {
+  
+    right: 23%;
+    top: 130%;
+    
+}
+
+
+.hero-area .hero-img img {
+
+    max-width: 290px;
+    padding-right: 20px;
+
+}
+ 
+.hero-area .hero-area-content h1 {
+
+    font-size: 22px;
+    padding-bottom: 0px;
+    padding-top: 38px;
+
+}
+
+
+.hero-area .hero-area-content ul li i {
+
+    font-size: 9px;
+    width: 17px;
+    height: 17px;
+    line-height: 1.4;
+
+}
+
+.hero-area .row .col-sm-6 {
+
+    padding: 0;
+
+}
+.cta-btn {
+
+    padding: 5px 22px;
+    margin: 25px 0;
+
+}
+
+.about-section .heading h3 {
+    font-size: 25px;
+}
+.heading span::after {
+    
+    width: 15%;
+    
+    
+}
+
+.heading span::before {
+    
+    width: 15%;
+    
+}
+
+
+.about-section .heading_box {
+    padding: 0;
+}
+
+
+.about-section .heading_box .row .col-sm-6 {
+    padding: 0;
+}
+
+.about-section .heading_box .box img {
+
+    max-width: 50px;
+
+}
+.about-section .heading_box .box {
+
+    min-height: 237px;
+    margin: 12px;
+    padding-top: 15px;
+}
+
+
+
+.about-section .heading_box .box p {
+
+    font-size: 12px;
+    padding: 4px 0 8px;
+
+}
+
+.about-section .heading_box .box h4 {
+
+    font-size: 16px;
+    padding: 10px 0 5px;
+
+}
+
+
+.formula-section .heading h6 {
+    font-size: 13px;
+    margin: 0;
+}
+
+.formula-section .heading h3 {
+    font-size: 25px;
+}
+
+
+.promise-section .promise-content {
+    padding: 15px;
+}
+.promise-section .promise-content h3 {
+
+    font-size: 25px !important;
+
+}
+.promise-section .promise-content p {
+    font-size: 13px;
+    line-height: 1.7;
+    padding: 2% 5%;
+    margin: 0;
+}
+
+.promise-section .promise-content .learn_more {
+    
+    margin: 10px 0;
+}
+
+.testimonial-section .testimonial-heading h3 {
+    font-size: 25px;
+}
+.testimonial-section .testimonial-heading h6 {
+    
+    padding-bottom: 25px;
+    font-size: 13px;
+}
+
+.testimonial-section {
+    padding: 30px 0 0;
+}
+
+.question-section .heading {
+    padding-bottom: 0px;
+}
+
+.question-section .heading h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.question-section .row {
+    padding: 0;
+}
+
+.form-group .send-btn {
+    margin: 0 28%;
+}
+
+.cta-btn {
+    padding: 5px 45px;
+    margin: 25px 0;
+}
+.answer-section {
+    padding: 5%;
+    margin: 0;
+}
+.answer-section .card {
+    
+    padding: 0;
+}
+.question-section {
+    padding-bottom: 0;
+}
+
+.howToDayrise-section .heading {
+    
+    padding: 125px 0 10px;
+}
+
+.howToDayrise-section .heading h3 {
+    font-size: 25px;
+    margin: 0;
+}
+.howToDayrise-section .row {
+    padding: 0;
+}
+.howToDayrise-section .shiping-content {
+    padding-left: 0;
+}
+
+.howToDayrise-section .shiping-content ul {
+    padding: 20px 40px;
+    box-shadow: 0 0 20px 14px #f9be748a;
+}
+
+footer .contact_info .row .col-sm-6 {
+  padding: 0 60px;
+}
+.lower_part .white_line {
+    
+    margin-bottom: 10px;       
+}
+
+
+}
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:575px){
+  
+header .navbar .nav-item .nav-link {
+    
+    font-size: 15px;
+    
+}
+
+
+.navbar-toggler {
+    left: 3.5%;
+}
+
+.searchbar:hover {
+    width: 110px;
+}
+
+.hero-area .hero-img {
+    
+    display: none;
+}
+
+.hero-area .row {
+  
+
+    justify-content: center;
+    text-align: center;
+}
+.hero-area .hero-area-content {
+    padding-right: 5%;
+}
+.hero-area .hero-area-content h1 {
+  padding: 0 10%;
+}
+.hero-area .hero-area-content ul {
+
+    padding: 0 12%;
+}
+
+.cta-btn {
+
+    padding: 5px 29px;
+    margin: 7px 0 20px;
+
+}
+
+.about-section {
+
+    text-align: center;
+    padding: 10% 0 5%;
+
+}
+.about-section .heading h3 {
+
+    font-size: 22px;
+
+}
+
+
+.about-section .heading_box .row .col-12 {
+
+    padding: 5%;
+
+}
+.about-section .heading_box .box p {
+
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+.about-section .heading_box .box {
+
+    min-height: 188px;
+    margin-top: -16px;
+    padding-top: 10px;
+
+}
+
+
+.formula-section {
+
+    padding: 50px 25px;
+
+}
+
+.formula-section .heading h3 {
+
+    font-size: 22px;
+
+}
+.formula-section .heading h6 {
+
+    font-size: 12px;
+    
+}
+
+.promise-section .promise-content h6 {
+
+    font-size: 15px;
+
+}
+.promise-section .promise-content h3 {
+
+    font-size: 22px !important;
+
+}
+.promise-section .promise-content p {
+
+    font-size: 12px;
+    line-height: 1.9;
+    padding: 2% 0;
+    
+}
+.promise-section .promise-content .learn_more {
+
+      font-size: 12px;
+
+}
+
+.testimonial-section .testimonial-heading h5 {
+        font-size: 16px;
+}
+
+.testimonial-section .testimonial-heading h3 {
+    font-size: 22px;
+}
+
+.testimonial-section .testimonial-heading h6 {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+
+.testimonial-section .row {
+    padding: 0 12%;
+}
+
+.testimonial-section .t-box .t-position .icon-position li {
+    margin-top: 4%;
+}
+.testimonial-section .t-box .t-position .icon-position li a i {
+    background: #1818189e;
+    width: 25px;
+    height: 25px;
+    line-height: 1.9;
+    font-size: 12px;
+}
+
+
+.testimonial-section .t-box .t-position .content-position {
+    
+    bottom: 20%;
+    font-size: 12px;
+    padding: 2% 10%;
+}
+
+.testimonial-section .t-box h5 {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.question-section .heading h3 {
+    font-size: 22px;
+    
+}
+
+.question-section .form-section h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+form {
+    
+    padding: 1% 10%;
+}
+.form-group label {
+    font-size: 12px;
+}
+
+.form-control::placeholder {
+    font-size: 10px;
+}
+.form-group .send-btn {
+    font-size: 14px;
+}
+.answer-section {
+    padding: 0;
+}
+
+.card-header .title {
+    font-size: 10px;
+    
+}
+.card-body {
+    padding: 5px 20px;
+}
+
+
+.card-body h6 {
+
+    font-size: 10px;
+    
+}
+
+.howToDayrise-section .heading {
+
+    padding: 60px 0 10px;
+
+}
+
+.howToDayrise-section .heading h5 {
+
+    font-size: 16px;
+    color: #15141a;
+
+}
+
+.howToDayrise-section .heading h3 {
+
+    font-size: 22px;
+    margin-top: 15px;
+    color: #15141a;
+
+}
+
+.howToDayrise-section .heading span::before {
+
+    width: 15%;
+    background: #15141a;
+}
+
+.howToDayrise-section .heading span::after {
+
+    width: 15%;
+    background: #15141a;
+}
+.howToDayrise-section .heading h1 {
+
+    color: #15141a;
+    font-size: 48px;
+
+}
+
+.howToDayrise-section .heading p {
+
+    font-size: 12px;
+    color:#15141a;
+}
+.howToDayrise-section .shiping-content ul {
+
+    padding: 20px 25px;
+    
+}
+.howToDayrise-section .shiping-content ul li img {
+
+    max-width: 55px;
+
+}
+
+.howToDayrise-section .shiping-content ul li h5 {
+
+    color: #15141a;
+    font-weight: 600;
+    padding: 5px 0 0 15px;
+    font-size: 16px;
+
+}
+.howToDayrise-section .shiping-content ul li p {
+
+    color: #15141a;
+    padding: 5px 0 0 15px;
+    font-size: 12px;
+
+}
+
+.howToDayrise-section .hero-img {
+
+    display: none;
+
+}
+footer .newsLetter {
+    padding: 10% 0;
+}
+
+.newsLetter i {
+    right: 36px;
+   
+}
+
+
+footer .contact_info .row .col-6 {
+    padding: 0 2% 5% 10%;
+}
+
+.contact_info p {
+    
+    margin: 0;
+}
+.contact_info ul li a {
+    font-size: 10px;
+}
+
+.contact_info ul li h6 {
+    font-size: 15px;
+}
+
+
+.contact_info ul li p {
+    font-size: 10px;
+}
+
+.contact_info ul {
+    margin: 0;
+}
+
+.contact_info .social-icon li a {
+    font-size: 18px;
+}
+
+
+footer .lower_part {
+    padding: 0;
+    margin: 0 5%;
+}
+
+.lower_part .white_line {
+    margin: 0;
+}
+.lower_part .col-6 {
+    padding: 3px;
+}
+.lower_part .copy_right {
+    font-size: 10px;
+    padding: 5% 0 0% 0;
+}
+.lower_part ul li {
+    padding: 3px;
+}
+
+
+}
